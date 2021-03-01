@@ -55,10 +55,17 @@ You are good to go!
         ```bash
         chmod +x ubuntu-reset.sh
         ```
+    
         * Execute the script
         ```bash
         ./ubuntu-reset.sh
         ```
+        
+        * You may have to run the commands before executing the script
+        ```bash
+        sed -i -e 's/\r$//' ubuntu-reset.sh
+        ```
+        
     Note: To reset the `Current` Folder at any time, you may run this command again.
 
 ## MinGW package version issue in Windows
